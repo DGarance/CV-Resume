@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--========== BOX ICONS ==========-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Garance Defrel - CV Responsive </title>
+</head>
+
+<body>
+    <!--========== HEADER ==========-->
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+            <a href="#" class="nav__logo">Defrel</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link"><i class="bx bx-home nav__icon"></i>
+                            Accueil</a> </li>
+                    <li class="nav__item"><a href="#profil" class="nav__link"><i class="bx bx-user nav__icon"></i>
+                            Profil</a> </li>
+                    <li class="nav__item"><a href="#education" class="nav__link"><i class="bx bx-book nav__icon"></i>
+                            Formation</a> </li>
+                    <li class="nav__item"><a href="#skills" class="nav__link"><i class="bx bx-receipt nav__icon"></i>
+                            Compétences</a> </li>
+                    <li class="nav__item"><a href="#experience" class="nav__link"><i
+                                class="bx bx-briefcase nav__icon"></i>
+                            Expériences Professionnelles</a> </li>
+                    <li class="nav__item"><a href="#projects" class="nav__link"><i class="bx bx-award nav__icon"></i>
+                            Projets</a> </li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle"><i class="bx bx-grid-alt"></i> </div>
+        </nav>
+
+    </header>
+
+    <main class="l-main bd-container">
+        <!-- All elements within this div, is generated in PDF -->
+        <div class="resume" id="area-cv">
+            <div class="resume__left">
+                <!--========== HOME ==========-->
+                <section class="home" id="home">
+                    <div class="home__container section bd-grid">
+                        <div class="home__data bd-grid">
+                            <img src="assets/img/profil.jpg" alt="" class="home__img">
+                            <h1 class="home__title">DEFREL <b>GARANCE</b></h1>
+                            <h3 class="home__profession">Développeuse Web</h3>
+                            <div>
+                                <a download="" href="assets/pdf/ResumeCv.pdf"
+                                    class="home__button-mobile">Télécharger</a>
+                            </div>
+                        </div>
+                        <div class="home__address bd-grid">
+                            <span class="home__information"> <i class="bx bx-map home__icon"></i> 94000, Créteil</span>
+                            <span class="home__information"> <i class="bx bx-envelope home__icon"></i>
+                                garance.defrel@outlook.com</span>
+                            <span class="home__information"> <i class="bx bx-phone home__icon"></i> 06 35 23 04
+                                84</span>
+                            <div class="social__container bd-grid"> <a
+                                    href="https://www.linkedin.com/in/garance-defrel-3b269b279/" target="_blank"
+                                    class="social__link"><i class="bx bxl-linkedin-square social__icon"></i>Profil
+                                    Linkedin</a>
+                            </div>
+                            <div class="social__container bd-grid"> <a href="https://github.com/DGarance"
+                                    target="_blank" class="social__link"><i
+                                        class="bx bxl-github social__icon"></i>Profil Github</a></div>
+                        </div>
+                    </div>
+
+                    <!-- Theme change button -->
+                    <i class="bx bx-moon change-theme" title="Theme" id="theme-button"></i>
+
+                    <!-- Button to generate and download the pdf. Available for desktop. -->
+                    <i class="bx bx-download generate-pdf" title="Generate PDF" id="resume-button"></i>
+
+                </section>
+
+                <!--========== PROFIL ==========-->
+                <section class="profil section" id="profil">
+                    <h2 class="section-title">Profil</h2>
+                    <p class="profil__description">Portée par ma capacité d’aptation et ma soif
+                        d’apprentissage, je suis à la recherche d’une
+                        nouvelle opportunité dans le domaine du
+                        développement web, à l’issue de mon diplôme
+                        obtenu en janvier 2023.</p>
+                </section>
+
+               
+
+                <section class="languages section">
+                    <h2 class="section-title">Langues</h2>
+                    <div class="languages__container">
+                        <ul class="languages__content bd-grid">
+                            <li class="languages__name"><span class="languages__circle"></span>Français</li>
+                            <li class="languages__name"><span class="languages__circle"></span> Anglais </li>
+                        </ul>
+                    </div>
+                </section>
+
+
+                <!--========== SKILLS  ==========-->
+                <section class="skills section" id="skills">
+                    <h2 class="section-title">Compétences</h2>
+                    <div class="skills__content bd-grid">
+                        <ul class="skills__data">
+                            <li class="skills__name"> <span class="skills__circle"></span>HTML/CSS</li>
+                            <li class="skills__name"> <span class="skills__circle"></span>JavaScript</li>
+                            <li class="skills__name"> <span class="skills__circle"></span>React JS</li>
+                        </ul>
+                        <ul class="skills__data">
+                            <li class="skills__name"> <span class="skills__circle"></span>MongoDB</li>
+                            <li class="skills__name"> <span class="skills__circle"></span>Express</li>
+                            <li class="skills__name"> <span class="skills__circle"></span>Github</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!--========== INTERESTS ==========-->
+                <section class="interests section">
+                    <h2 class="section-title">Intérêts</h2>
+                    <div class="interest__container">
+                        <div class="interest__content"> <i class="bx bx-headphone interest__icon"></i> <span
+                                class="interest__name">Musique</span></div>
+                        <div class="interest__content"> <i class="bx bx-headphone interest__icon"></i> <span
+                                class="interest__name">Musique</span></div>
+                        <div class="interest__content"> <i class="bx bx-headphone interest__icon"></i> <span
+                                class="interest__name">Musique</span></div>
+                    </div>
+                </section>
+            </div>
+
+
+            <div class="resume__right">
+                <!--========== PROJECTS ==========-->
+                <section class="project section" id="projects">
+                    <h2 class="section-title">Projets</h2>
+                    <div class="project__container bd-grid">
+                        <div class="project__content">
+                            <h3 class="project__title">Booki | HTML/CSS </h3>
+                            <p class="project__description">Intégration de maquette de site web, en respectant la mise
+                                en page et en
+                                rendant l’interface responsive</p>
+                        </div>
+                        <div class="project__content">
+                            <h3 class="project__title">Oh my Food | HTML/SASS </h3>
+                            <p class="project__description">Animation d’une page web avec des effets graphiques avancés
+                                en utilisant
+                                des outils de gestion de versions pour l’hébergement et le suivi du projet</p>
+                        </div>
+                        <div class="project__content">
+                            <h3 class="project__title">La Panthère | SEO </h3>
+                            <p class="project__description">Optimisation d’un site web existant pour garantir
+                                l’accessibilité, le
+                                référencement, la vitesse et la maintenabilité du code HTML/CSS</p>
+                        </div>
+                        <div class="project__content">
+                            <h3 class="project__title">Kanap | Javascript </h3>
+                            <p class="project__description">Développement d’un site e-commerce, en gérant les tests, la
+                                validation
+                                des données, l’interaction avec des services web et les événements
+                                JavaScript</p>
+                        </div>
+                        <div class="project__content">
+                            <h3 class="project__title">Piiquante | Node JS, Express, MongoDB </h3>
+                            <p class="project__description">Création d’une API sécurisée pour une application d’avis
+                                gastronomiques,
+                                en implémentant des opérations CRUD sécurisées, un modèle logique de
+                                données conforme à la réglementation et un stockage de données sécurisé</p>
+                        </div>
+                        <div class="project__content">
+                            <h3 class="project__title">Kasa | ReactJS </h3>
+                            <p class="project__description">Création d’une application web de location immobilière avec
+                                React, en
+                                utilisant des composants React pour développer des éléments d’interface
+                                et configurer la navigation entre les pages de l’application</p>
+                        </div>
+                    </div>
+                </section>
+                <!--========== EDUCATION ==========-->
+                <section class="education section" id="education">
+                    <h2 class="section-title">Formation</h2>
+                    <div class="education__container bd-grid">
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <span class="education__line"></span>
+                            </div>
+                            <div class="education__data bd-grid">
+                                <h3 class="education__title">OpenClassrooms</h3>
+                                <span class="education__studies">Diplôme Développeur intégrateur web</span>
+                                <span class="education__year">2022-2023</span>
+                            </div>
+                        </div>
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <span class="education__line"></span>
+                            </div>
+                            <div class="education__data bd-grid">
+                                <h3 class="education__title">Ecole Supérieure de Commerce de Pau</h3>
+                                <span class="education__studies"></span>
+                                <span class="education__year">2014-2015</span>
+                            </div>
+                        </div>
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <span class="education__line"></span>
+                            </div>
+                            <div class="education__data bd-grid">
+                                <h3 class="education__title">Classe Préparatoire ECE</h3>
+                                <span class="education__studies"> Eonomique et Commerciale, option économique</span>
+                                <span class="education__year">2012-2014</span>
+                            </div>
+                        </div>
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                            </div>
+                            <div class="education__data bd-grid">
+                                <h3 class="education__title">Baccalauréat ES </h3>
+                                <span class="education__studies">Economique et sociale</span>
+                                <span class="education__year">2012</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!--========== EXPERIENCE ==========-->
+                <section class="experience section" id="experience">
+                    <h2 class="section-title">Experiences Professionnelles</h2>
+                    <div class="experience__container bd-grid">
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">Responsable Adjointe</h3>
+                                <span class="experience__company">Picard Surgelés | Juin 2019 - Décembre 2021</span>
+                                <p class="experience__description"> - Organisation des plannings et coordination du
+                                    travail <br />- Formation des nouveaux arrivants<br />- Gestion des commandes et des
+                                    stocks<br />- Amélioration des procédés d’implantation des produits<br /></p>
+                            </div>
+                        </div>
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                            </div>
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">Vendeuse Assistante</h3>
+                                <span class="experience__company">Juin 2019 - Décembre 2021 | Picard Surgelés </span>
+                                <p class="experience__description"> - Accueil et service clientèle <br />-
+                                    Encaissements, réception et traitement des livraisons<br />- Manutention des rayons
+                                    et gestion des commandes et des stocks<br />- Entretien du magasin<br /></p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+              
+
+               
+            </div>
+        </div>
+    </main>
+
+    <!--========== SCROLL TOP ==========-->
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class="bx bxs-up-arrow-alt scrolltop__icon"></i>
+    </a>
+
+    <!--========== HTML2PDF ==========-->
+    <script src="assets/js/html2pdf.bundle.min.js"></script>
+
+    <!--========== MAIN JS ==========-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
