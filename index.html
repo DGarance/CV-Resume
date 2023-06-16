@@ -2,144 +2,191 @@
 <html lang="fr">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--========== BOX ICONS ==========-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cv Garance Defrel</title>
 
-    <!--========== CSS ==========-->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- BOX ICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
 
-    <title>Garance Defrel - CV Responsive </title>
+    <!-- My CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 
 <body>
-    <!--========== HEADER ==========-->
+    <!-- HEADER -->
     <header class="l-header" id="header">
         <nav class="nav bd-container">
             <a href="#" class="nav__logo">Defrel</a>
 
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
-                    <li class="nav__item"><a href="#home" class="nav__link"><i class="bx bx-home nav__icon"></i>
-                            Accueil</a> </li>
-                    <li class="nav__item"><a href="#profil" class="nav__link"><i class="bx bx-user nav__icon"></i>
-                            Profil</a> </li>
-                    <li class="nav__item"><a href="#education" class="nav__link"><i class="bx bx-book nav__icon"></i>
-                            Formation</a> </li>
-                    <li class="nav__item"><a href="#skills" class="nav__link"><i class="bx bx-receipt nav__icon"></i>
-                            Compétences</a> </li>
-                    <li class="nav__item"><a href="#experience" class="nav__link"><i
-                                class="bx bx-briefcase nav__icon"></i>
-                            Expériences Professionnelles</a> </li>
-                    <li class="nav__item"><a href="#projects" class="nav__link"><i class="bx bx-award nav__icon"></i>
-                            Projets</a> </li>
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link"> <i class="bx bx-home nav__icon"></i>Accueil </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#profile" class="nav__link"> <i class="bx bx-user nav__icon"></i>Profil</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#education" class="nav__link"> <i class="bx bxs-book nav__icon"></i>Formation</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link"> <i class="bx bxs-receipt nav__icon"></i>Compétences </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#experience" class="nav__link"> <i class="bx bx-briefcase nav__icon"></i>Expériences
+                            Professionnelles
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#projects" class="nav__link"> <i class="bx bx-award nav__icon"></i>Projets
+                        </a>
+                    </li>
                 </ul>
             </div>
 
-            <div class="nav__toggle" id="nav-toggle"><i class="bx bx-grid-alt"></i> </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="bx bx-grid-alt"></i>
+            </div>
         </nav>
-
     </header>
 
     <main class="l-main bd-container">
-        <!-- All elements within this div, is generated in PDF -->
         <div class="resume" id="area-cv">
             <div class="resume__left">
-                <!--========== HOME ==========-->
+                <!-- Home -->
                 <section class="home" id="home">
                     <div class="home__container section bd-grid">
                         <div class="home__data bd-grid">
-                            <img src="assets/img/profil.jpg" alt="" class="home__img">
+                            <img src="assets/img/profil.jpg" alt="" class="home__img" />
                             <h1 class="home__title">DEFREL <b>GARANCE</b></h1>
-                            <h3 class="home__profession">Développeuse Web</h3>
+                            <h3 class="home__profession">Développeuse Web Junior</h3>
                             <div>
-                                <a download="" href="assets/pdf/ResumeCv.pdf"
-                                    class="home__button-mobile">Télécharger</a>
+                                <a download="" href="assets/pdf/ResumeCv.pdf" class="home__button-movil">Télécharger</a>
                             </div>
                         </div>
-                        <div class="home__address bd-grid">
-                            <span class="home__information"> <i class="bx bx-map home__icon"></i> 94000, Créteil</span>
+                        <div class="home__Address bd-grid">
+                            <span class="home__information"> <i class="bx bx-map home__icon"></i>94000, Créteil </span>
                             <span class="home__information"> <i class="bx bx-envelope home__icon"></i>
-                                garance.defrel@outlook.com</span>
+                                garance.defrel@outlook.com </span>
                             <span class="home__information"> <i class="bx bx-phone home__icon"></i> 06 35 23 04
                                 84</span>
-                            <div class="social__container bd-grid"> <a
-                                    href="https://www.linkedin.com/in/garance-defrel-3b269b279/" target="_blank"
-                                    class="social__link"><i class="bx bxl-linkedin-square social__icon"></i>Profil
-                                    Linkedin</a>
-                            </div>
-                            <div class="social__container bd-grid"> <a href="https://github.com/DGarance"
-                                    target="_blank" class="social__link"><i
-                                        class="bx bxl-github social__icon"></i>Profil Github</a></div>
                         </div>
                     </div>
 
-                    <!-- Theme change button -->
+                    <!-- Theme Change Button -->
                     <i class="bx bx-moon change-theme" title="Theme" id="theme-button"></i>
 
-                    <!-- Button to generate and download the pdf. Available for desktop. -->
+                    <!-- Button to generate and download the pdf -->
                     <i class="bx bx-download generate-pdf" title="Generate PDF" id="resume-button"></i>
-
                 </section>
 
-                <!--========== PROFIL ==========-->
-                <section class="profil section" id="profil">
+                <!-- SOCIAL -->
+                <section class="social section">
+                    <h2 class="section-title">SOCIAL</h2>
+                    <div class="social__container bd-grid">
+                        <a href="https://www.linkedin.com/in/garance-defrel-3b269b279/" target="_blank"
+                            class="social__link"> <i class="bx bxl-linkedin-square social__icon"></i> Garance Defrel
+                        </a>
+                    </div>
+                    <div class="social__container bd-grid">
+                        <a href="https://github.com/DGarance" target="_blank" class="social__link"> <i
+                                class="bx bxl-github social__icon"></i> DGarance </a>
+                    </div>
+                </section>
+
+                <!-- Profile -->
+                <section class="profile section" id="profile">
                     <h2 class="section-title">Profil</h2>
-                    <p class="profil__description">Portée par ma capacité d’aptation et ma soif
+                    <p class="profile__description">Portée par ma capacité d’aptation et ma soif
                         d’apprentissage, je suis à la recherche d’une
                         nouvelle opportunité dans le domaine du
                         développement web, à l’issue de mon diplôme
                         obtenu en janvier 2023.</p>
                 </section>
 
-               
+                <!-- Education -->
+                <section class="education section" id="education">
+                    <h2 class="section-title">Formation</h2>
+                    <div class="education__container bd-grid">
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <span class="education__line"></span>
+                            </div>
+                            <div class="education__data bd-grid">
+                                <h3 class="education__title">OpenClassrooms</h3>
+                                <span class="education__studies">Diplôme Développeur intégrateur web</span>
+                                <span class="education__year">2022 - 2023</span>
+                            </div>
+                        </div>
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                            </div>
+                            <div class="education__data bd-grid">
+                                <h3 class="education__title">Ecole Supérieure de Commerce de Pau</h3>
+                                <span class="education__year">2014 - 2015</span>
+                            </div>
+                        </div>
 
-                <section class="languages section">
-                    <h2 class="section-title">Langues</h2>
-                    <div class="languages__container">
-                        <ul class="languages__content bd-grid">
-                            <li class="languages__name"><span class="languages__circle"></span>Français</li>
-                            <li class="languages__name"><span class="languages__circle"></span> Anglais </li>
-                        </ul>
+
                     </div>
                 </section>
 
-
-                <!--========== SKILLS  ==========-->
+                <!-- SKILLS -->
                 <section class="skills section" id="skills">
                     <h2 class="section-title">Compétences</h2>
                     <div class="skills__content bd-grid">
                         <ul class="skills__data">
-                            <li class="skills__name"> <span class="skills__circle"></span>HTML/CSS</li>
-                            <li class="skills__name"> <span class="skills__circle"></span>JavaScript</li>
-                            <li class="skills__name"> <span class="skills__circle"></span>React JS</li>
+                            <li class="skills__name"><span class="skills__circle"></span> HTML/CSS</li>
+                            <li class="skills__name"><span class="skills__circle"></span> Javascript</li>
+                            <li class="skills__name"><span class="skills__circle"></span> React JS</li>
                         </ul>
                         <ul class="skills__data">
-                            <li class="skills__name"> <span class="skills__circle"></span>MongoDB</li>
-                            <li class="skills__name"> <span class="skills__circle"></span>Express</li>
-                            <li class="skills__name"> <span class="skills__circle"></span>Github</li>
+                            <li class="skills__name"><span class="skills__circle"></span> Express</li>
+                            <li class="skills__name"><span class="skills__circle"></span> Github</li>
+                            <li class="skills__name"><span class="skills__circle"></span> MongoDB</li>
                         </ul>
-                    </div>
-                </section>
-
-                <!--========== INTERESTS ==========-->
-                <section class="interests section">
-                    <h2 class="section-title">Intérêts</h2>
-                    <div class="interest__container">
-                        <div class="interest__content"> <i class="bx bx-headphone interest__icon"></i> <span
-                                class="interest__name">Musique</span></div>
-                        <div class="interest__content"> <i class="bx bx-headphone interest__icon"></i> <span
-                                class="interest__name">Musique</span></div>
-                        <div class="interest__content"> <i class="bx bx-headphone interest__icon"></i> <span
-                                class="interest__name">Musique</span></div>
                     </div>
                 </section>
             </div>
-
-
             <div class="resume__right">
-                <!--========== PROJECTS ==========-->
+                <!-- EXPERIENCE -->
+                <section class="experience section" id="experience">
+                    <h2 class="section-title">Expériences Professionnelles</h2>
+                    <div class="experience__container bd-grid">
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+                            <div class="experience__data bd-grid">
+                                <h3 class="expreience__title">Responsable Adjointe</h3>
+                                <span class="experience__company"> Juin 2019 - Décembre 2021 | Picard Surgelés </span>
+                                <p class="experience__description">- Organisation des plannings et coordination du
+                                    travail <br />- Formation des nouveaux arrivants<br />- Gestion des commandes et des
+                                    stocks<br />- Amélioration des procédés d’implantation des produits</p>
+                            </div>
+                        </div>
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                            </div>
+                            <div class="experience__data bd-grid">
+                                <h3 class="expreience__title">Vendeuse Assistante</h3>
+                                <span class="experience__company">Juin 2019 - Décembre 2021 | Picard Surgelés</span>
+                                <p class="experience__description">
+                                    - Accueil et service clientèle <br />-
+                                    Encaissements, réception et traitement des livraisons<br />- Manutention des rayons
+                                    et gestion des commandes et des stocks<br />- Entretien du magasin
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- PROJETS -->
                 <section class="project section" id="projects">
                     <h2 class="section-title">Projets</h2>
                     <div class="project__container bd-grid">
@@ -184,102 +231,26 @@
                         </div>
                     </div>
                 </section>
-                <!--========== EDUCATION ==========-->
-                <section class="education section" id="education">
-                    <h2 class="section-title">Formation</h2>
-                    <div class="education__container bd-grid">
-                        <div class="education__content">
-                            <div class="education__time">
-                                <span class="education__rounder"></span>
-                                <span class="education__line"></span>
-                            </div>
-                            <div class="education__data bd-grid">
-                                <h3 class="education__title">OpenClassrooms</h3>
-                                <span class="education__studies">Diplôme Développeur intégrateur web</span>
-                                <span class="education__year">2022-2023</span>
-                            </div>
-                        </div>
-                        <div class="education__content">
-                            <div class="education__time">
-                                <span class="education__rounder"></span>
-                                <span class="education__line"></span>
-                            </div>
-                            <div class="education__data bd-grid">
-                                <h3 class="education__title">Ecole Supérieure de Commerce de Pau</h3>
-                                <span class="education__studies"></span>
-                                <span class="education__year">2014-2015</span>
-                            </div>
-                        </div>
-                        <div class="education__content">
-                            <div class="education__time">
-                                <span class="education__rounder"></span>
-                                <span class="education__line"></span>
-                            </div>
-                            <div class="education__data bd-grid">
-                                <h3 class="education__title">Classe Préparatoire ECE</h3>
-                                <span class="education__studies"> Eonomique et Commerciale, option économique</span>
-                                <span class="education__year">2012-2014</span>
-                            </div>
-                        </div>
-                        <div class="education__content">
-                            <div class="education__time">
-                                <span class="education__rounder"></span>
-                            </div>
-                            <div class="education__data bd-grid">
-                                <h3 class="education__title">Baccalauréat ES </h3>
-                                <span class="education__studies">Economique et sociale</span>
-                                <span class="education__year">2012</span>
-                            </div>
-                        </div>
+                <!-- LANGUAGES -->
+                <section class="languages section">
+                    <h2 class="section-title">Langues</h2>
+                    <div class="languages__container">
+                        <ul class="languages__content bd-grid">
+                            <li class="languages__name"><span class="languages__circle"></span> Français</li>
+                            <li class="languages__name"><span class="languages__circle"></span> Anglais</li>
+                        </ul>
                     </div>
                 </section>
-                <!--========== EXPERIENCE ==========-->
-                <section class="experience section" id="experience">
-                    <h2 class="section-title">Experiences Professionnelles</h2>
-                    <div class="experience__container bd-grid">
-                        <div class="experience__content">
-                            <div class="experience__time">
-                                <span class="experience__rounder"></span>
-                                <span class="experience__line"></span>
-                            </div>
-                            <div class="experience__data bd-grid">
-                                <h3 class="experience__title">Responsable Adjointe</h3>
-                                <span class="experience__company">Picard Surgelés | Juin 2019 - Décembre 2021</span>
-                                <p class="experience__description"> - Organisation des plannings et coordination du
-                                    travail <br />- Formation des nouveaux arrivants<br />- Gestion des commandes et des
-                                    stocks<br />- Amélioration des procédés d’implantation des produits<br /></p>
-                            </div>
-                        </div>
-                        <div class="experience__content">
-                            <div class="experience__time">
-                                <span class="experience__rounder"></span>
-                            </div>
-                            <div class="experience__data bd-grid">
-                                <h3 class="experience__title">Vendeuse Assistante</h3>
-                                <span class="experience__company">Juin 2019 - Décembre 2021 | Picard Surgelés </span>
-                                <p class="experience__description"> - Accueil et service clientèle <br />-
-                                    Encaissements, réception et traitement des livraisons<br />- Manutention des rayons
-                                    et gestion des commandes et des stocks<br />- Entretien du magasin<br /></p>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-              
-
-               
             </div>
         </div>
     </main>
 
-    <!--========== SCROLL TOP ==========-->
+    <!-- Scroll Top -->
     <a href="#" class="scrolltop" id="scroll-top">
         <i class="bx bxs-up-arrow-alt scrolltop__icon"></i>
     </a>
 
-    <!--========== HTML2PDF ==========-->
     <script src="assets/js/html2pdf.bundle.min.js"></script>
-
-    <!--========== MAIN JS ==========-->
     <script src="assets/js/main.js"></script>
 </body>
 

@@ -1,4 +1,4 @@
-/*==================== SHOW MENU ====================*/
+// SHOW MENU
 const showMenu = (toggleId, navId) => {
   const toggle = document.getElementById(toggleId),
     nav = document.getElementById(navId);
@@ -6,12 +6,14 @@ const showMenu = (toggleId, navId) => {
   // Validate that variables exist
   if (toggle && nav) {
     toggle.addEventListener("click", () => {
+      // We add the show-menu class to the div tag with the nav__menu class
       nav.classList.toggle("show-menu");
     });
   }
 };
 showMenu("nav-toggle", "nav-menu");
-/*==================== REMOVE MENU MOBILE ====================*/
+
+// REMOVE MENU MOBILE
 const navLink = document.querySelectorAll(".nav__link");
 
 function linkAction() {
@@ -20,7 +22,8 @@ function linkAction() {
   navMenu.classList.remove("show-menu");
 }
 navLink.forEach((n) => n.addEventListener("click", linkAction));
-/*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
+
+// Scroll Section Active Link
 const sections = document.querySelectorAll("section[id]");
 
 function scrollActive() {
@@ -39,7 +42,8 @@ function scrollActive() {
   });
 }
 window.addEventListener("scroll", scrollActive);
-/*==================== SHOW SCROLL TOP ====================*/
+
+// SHOW SCROLL TOP
 function scrollTop() {
   const scrollTop = document.getElementById("scroll-top");
   if (this.scrollY >= 200) scrollTop.classList.add("show-scroll");
@@ -47,7 +51,6 @@ function scrollTop() {
 }
 window.addEventListener("scroll", scrollTop);
 
-/*==================== DARK LIGHT THEME ====================*/
 const themeButton = document.getElementById("theme-button");
 const darkTheme = "dark-theme";
 const iconTheme = "bx-sun";
@@ -77,11 +80,17 @@ themeButton.addEventListener("click", () => {
   localStorage.setItem("selected-icon", getCurrentIcon());
 });
 
-/*==================== REDUCE THE SIZE AND PRINT ON AN A4 SHEET ====================*/
+// REDUCE THE SIZE AND PRINT ON A4 SHEET
+function scaleCv() {
+  document.body.classList.add("scale-cv");
+}
 
-/*==================== REMOVE THE SIZE WHEN THE CV IS DOWNLOADED ====================*/
+// REMOVE THE SIZE WHEN THE CV IS DOWNLOADED
+function removeScale() {
+  document.body.classList.remove("scale-cv");
+}
 
-/*==================== GENERATE PDF ====================*/
+// GENERATE PDF
 let areaCv = document.getElementById("area-cv");
 
 let opt = {
@@ -102,16 +111,3 @@ resumeButton.addEventListener("click", function () {
   generateResume();
   setTimeout(removeScale, 5000);
 });
-// PDF generated area
-
-// Html2pdf options
-
-// Function to call areaCv and Html2Pdf options
-
-// When the button is clicked, it executes the three functions
-
-// 1. The class .scale-cv is added to the body, where it reduces the size of the elements
-
-// 2. The PDF is generated
-
-// 3. The .scale-cv class is removed from the body after 5 seconds to return to normal size.
